@@ -28,9 +28,18 @@ declare global {
 
 export default function StellaInkChamberWidget() {
   const [isMounted, setIsMounted] = useState(false)
+  const [isMobile, setIsMobile] = useState(false)
 
   useEffect(() => {
     setIsMounted(true)
+    
+    // Check if mobile
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768)
+    }
+    checkMobile()
+    window.addEventListener('resize', checkMobile)
+    return () => window.removeEventListener('resize', checkMobile)
   }, [])
 
   useEffect(() => {
@@ -49,10 +58,65 @@ export default function StellaInkChamberWidget() {
 
     document.body.appendChild(script)
 
+    // Add mobile-specific CSS for the widget
+    const style = document.createElement('style')
+    style.textContent = `
+      vapi-widget {
+        --vapi-widget-width: 100% !important;
+        --vapi-widget-max-width: 100vw !important;
+        --vapi-widget-height: 100vh !important;
+        --vapi-widget-max-height: 100vh !important;
+      }
+      
+      @media (max-width: 767px) {
+        vapi-widget {
+          position: fixed !important;
+          top: 0 !important;
+          left: 0 !important;
+          right: 0 !important;
+          bottom: 0 !important;
+          width: 100vw !important;
+          height: 100vh !important;
+          max-width: 100vw !important;
+          max-height: 100vh !important;
+          border-radius: 0 !important;
+          margin: 0 !important;
+        }
+        
+        vapi-widget::part(container) {
+          width: 100% !important;
+          height: 100% !important;
+          max-width: 100vw !important;
+          max-height: 100vh !important;
+          border-radius: 0 !important;
+        }
+        
+        vapi-widget::part(button) {
+          bottom: 20px !important;
+          right: 20px !important;
+          width: 56px !important;
+          height: 56px !important;
+          min-width: 56px !important;
+          min-height: 56px !important;
+        }
+      }
+      
+      @media (min-width: 768px) {
+        vapi-widget {
+          max-width: 420px !important;
+          max-height: 600px !important;
+        }
+      }
+    `
+    document.head.appendChild(style)
+
     return () => {
       // Cleanup
       if (document.body.contains(script)) {
         document.body.removeChild(script)
+      }
+      if (document.head.contains(style)) {
+        document.head.removeChild(style)
       }
     }
   }, [isMounted])
@@ -68,8 +132,8 @@ export default function StellaInkChamberWidget() {
       mode="voice"
       theme="light"
       position="bottom-right"
-      size="full"
-      radius="large"
+      size={isMobile ? "compact" : "full"}
+      radius={isMobile ? "none" : "large"}
       base-color="#faf8f3"
       accent-color="#ff6b35"
       button-base-color="#ff6b35"
