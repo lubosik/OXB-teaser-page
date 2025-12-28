@@ -206,7 +206,7 @@ function transformToCaseStudy(metadata: IngestedMetadata): CaseStudy {
   
   // Add any additional images from enhanced metadata (but not the cover image)
   if (enhanced?.additionalImages) {
-    images.push(...enhanced.additionalImages.filter(img => img !== enhanced.coverImage))
+    images.push(...enhanced.additionalImages.filter((img: string) => img !== enhanced.coverImage))
   }
 
   // Merge categories: enhanced takes precedence
