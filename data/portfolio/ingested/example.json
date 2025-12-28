@@ -1,0 +1,11 @@
+{
+  "slug": "example",
+  "url": "https://example.com",
+  "title": "Example Domain",
+  "status": "blocked",
+  "timestamp": "2025-12-23T00:19:32.701Z",
+  "h1": "Example Domain",
+  "h2s": [],
+  "screenshotPath": "/portfolio/ingested/example/home.jpg",
+  "thumbnailPath": "/portfolio/ingested/example/thumb.jpg"
+}

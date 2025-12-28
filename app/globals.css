@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Theme tokens - adjust these to match screenshot precisely */
+  --bg: #faf8f3; /* warm off-white/cream background */
+  --text: #2d2d2d; /* dark near-black headline text */
+  --muted: #6b6b6b; /* muted gray body text */
+  --accent: #ff6b35; /* warm orange accent */
+  --accent-hover: #e55a2b; /* slightly darker orange on hover */
+  --card: #ffffff;
+  --border: #e5e5e5;
+  --radius: 8px; /* subtle rounded corners */
+  --radius-lg: 12px; /* larger radius for buttons */
+  
+  /* Spacing scale */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 6rem;
+  
+  /* Typography */
+  --font-sans: var(--font-inter);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* Ensure touch targets are at least 44x44px on mobile */
+    touch-action: manipulation;
+  }
+  
+  /* Improve tap targets on mobile */
+  button, a {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  @media (min-width: 768px) {
+    button, a {
+      min-height: auto;
+      min-width: auto;
+    }
+  }
+  
+  /* Respect reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+  
+  .focus\:not-sr-only:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: inherit;
+    margin: inherit;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+  }
+}
+

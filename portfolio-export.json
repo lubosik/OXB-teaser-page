@@ -1,0 +1,386 @@
+[
+  {
+    "id": "saas-marketplace",
+    "title": "B2B Marketplace Platform",
+    "oneLiner": "Full-stack marketplace connecting service providers with businesses",
+    "category": [
+      "SaaS",
+      "Marketplaces"
+    ],
+    "problem": "A client needed a platform to connect service providers with businesses, but existing solutions were too generic and lacked the specific workflow automation they required. They needed custom matching logic, integrated payments, and a white-label solution.",
+    "build": "Built a complete marketplace platform with Next.js frontend, Node.js backend, and PostgreSQL database. Implemented Stripe Connect for multi-party payments, custom matching algorithm, real-time notifications, and a comprehensive admin dashboard. Added automated onboarding flows and document verification.",
+    "outcome": "Launched in 6 weeks with 50+ active providers and 200+ businesses. Processed $150K+ in transactions in first quarter. Reduced manual matching time by 90% and increased provider onboarding completion rate by 75%.",
+    "tech": [
+      "Next.js",
+      "Node.js",
+      "PostgreSQL",
+      "Stripe",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "images": [
+      "/case-studies/marketplace-1.jpg",
+      "/case-studies/marketplace-2.jpg",
+      "/case-studies/marketplace-3.jpg"
+    ],
+    "videoUrl": "https://www.loom.com/share/example",
+    "pdfUrl": "/case-studies/marketplace-case-study.pdf",
+    "websiteUrl": "https://example-marketplace.com"
+  },
+  {
+    "id": "ai-voice-agent",
+    "title": "AI Voice Agent for Customer Service",
+    "oneLiner": "Intelligent voice assistant handling 80% of customer inquiries",
+    "category": [
+      "AI Agents"
+    ],
+    "problem": "A service business was overwhelmed with customer calls, especially for common questions about scheduling, pricing, and service areas. They needed a solution that could handle routine inquiries 24/7 while maintaining a natural conversation flow.",
+    "build": "Developed a custom AI voice agent using OpenAI Whisper for speech-to-text, GPT-4 for conversation logic, and ElevenLabs for natural voice synthesis. Integrated with their existing CRM and booking system via APIs. Built a dashboard for monitoring conversations and training the agent.",
+    "outcome": "Handles 80% of incoming calls without human intervention. Reduced average call wait time from 3 minutes to 15 seconds. Saves 20+ hours per week of staff time. Customer satisfaction increased as calls are answered immediately, even outside business hours.",
+    "tech": [
+      "Python",
+      "OpenAI API",
+      "ElevenLabs",
+      "FastAPI",
+      "PostgreSQL",
+      "Twilio"
+    ],
+    "images": [
+      "/case-studies/voice-agent-1.jpg",
+      "/case-studies/voice-agent-2.jpg"
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=example"
+  },
+  {
+    "id": "crm-automation",
+    "title": "Custom CRM with Lead Automation",
+    "oneLiner": "Sales automation platform reducing manual work by 70%",
+    "category": [
+      "Lead Gen/CRM",
+      "Automations"
+    ],
+    "problem": "A sales team was spending too much time on manual data entry, follow-ups, and lead qualification. They needed a CRM that could automatically capture leads from multiple sources, score them, and trigger personalized outreach sequences.",
+    "build": "Created a custom CRM with automated lead capture from website forms, LinkedIn, and email. Built lead scoring algorithm based on engagement and firmographics. Integrated with email (Resend) and SMS (Twilio) for automated sequences. Added AI-powered email personalization and calendar booking integration.",
+    "outcome": "Reduced manual data entry by 70%. Increased lead response rate by 45% through automated personalized outreach. Sales team now focuses on qualified leads, resulting in 30% higher conversion rate. ROI achieved in first month.",
+    "tech": [
+      "Next.js",
+      "PostgreSQL",
+      "Resend",
+      "Twilio",
+      "OpenAI API",
+      "Make.com"
+    ],
+    "images": [
+      "/case-studies/crm-1.jpg",
+      "/case-studies/crm-2.jpg",
+      "/case-studies/crm-3.jpg"
+    ],
+    "pdfUrl": "/case-studies/crm-case-study.pdf",
+    "websiteUrl": "https://example-crm.com"
+  },
+  {
+    "id": "lead-gen-system",
+    "title": "Multi-Channel Lead Generation System",
+    "oneLiner": "Automated system capturing and nurturing leads across all channels",
+    "category": [
+      "Lead Gen/CRM",
+      "Automations"
+    ],
+    "problem": "A service business was losing leads due to slow response times and lack of follow-up automation. They needed a system that could capture leads from website, social media, and phone calls, then automatically nurture them through personalized sequences.",
+    "build": "Built a unified lead capture system with website forms, Facebook/Instagram integration, and call tracking. Implemented automated lead scoring, SMS and email nurture sequences, and calendar booking. Integrated with their existing CRM and created a dashboard for lead management.",
+    "outcome": "Increased lead capture by 60%. Reduced response time from hours to minutes. Improved lead-to-customer conversion by 40% through automated nurturing. Generated $200K+ in new revenue in first 3 months.",
+    "tech": [
+      "Next.js",
+      "PostgreSQL",
+      "Twilio",
+      "Resend",
+      "Zapier",
+      "Stripe"
+    ],
+    "images": [
+      "/case-studies/lead-gen-1.jpg",
+      "/case-studies/lead-gen-2.jpg"
+    ],
+    "websiteUrl": "https://example-leadgen.com"
+  },
+  {
+    "id": "ai-chat-system",
+    "title": "AI Chatbot for E-commerce",
+    "oneLiner": "Intelligent chatbot handling customer support and sales inquiries",
+    "category": [
+      "AI Agents"
+    ],
+    "problem": "An e-commerce store was receiving hundreds of customer questions daily about products, shipping, and returns. They needed a solution that could answer questions instantly and help customers find the right products.",
+    "build": "Developed an AI chatbot using OpenAI GPT-4, integrated with their product catalog and order system. Built custom training data from their FAQ and product descriptions. Added natural language product search and order tracking capabilities.",
+    "outcome": "Handles 75% of customer inquiries without human intervention. Increased average order value by 20% through product recommendations. Reduced support ticket volume by 60%. Customer satisfaction scores improved significantly.",
+    "tech": [
+      "Next.js",
+      "OpenAI API",
+      "PostgreSQL",
+      "Stripe",
+      "TypeScript"
+    ],
+    "images": [
+      "/case-studies/chatbot-1.jpg",
+      "/case-studies/chatbot-2.jpg",
+      "/case-studies/chatbot-3.jpg"
+    ],
+    "websiteUrl": "https://example-chatbot.com"
+  },
+  {
+    "id": "workflow-automation",
+    "title": "Operations Workflow Automation",
+    "oneLiner": "Custom automation reducing operational overhead by 50%",
+    "category": [
+      "Automations",
+      "Ops Tooling"
+    ],
+    "problem": "A growing business was drowning in manual processes: order processing, inventory management, customer onboarding, and reporting. They needed automation to scale without hiring more staff.",
+    "build": "Created custom workflow automations using Make.com and custom APIs. Automated order processing, inventory syncing, customer onboarding emails, and daily reporting. Built a dashboard for monitoring all automated processes.",
+    "outcome": "Reduced manual work by 50%. Eliminated errors from manual data entry. Cut operational costs by $15K/month. Team can now focus on growth instead of repetitive tasks.",
+    "tech": [
+      "Make.com",
+      "Python",
+      "PostgreSQL",
+      "Resend",
+      "Stripe API"
+    ],
+    "images": [
+      "/case-studies/workflow-1.jpg",
+      "/case-studies/workflow-2.jpg"
+    ],
+    "pdfUrl": "/case-studies/workflow-case-study.pdf"
+  },
+  {
+    "id": "saas-platform",
+    "title": "Full-Stack SaaS Platform",
+    "oneLiner": "Complete SaaS application with subscriptions, analytics, and team management",
+    "category": [
+      "SaaS"
+    ],
+    "problem": "A startup needed a complete SaaS platform with user authentication, subscription management, team collaboration features, and analytics. They wanted to launch quickly without building everything from scratch.",
+    "build": "Built a full-stack SaaS platform with Next.js, authentication (Clerk), subscription management (Stripe), team workspaces, and analytics dashboard. Implemented role-based access control, real-time collaboration features, and comprehensive admin tools.",
+    "outcome": "Launched MVP in 8 weeks. Onboarded 500+ users in first month. Processed $50K+ in subscriptions. Platform scales smoothly with growing user base. Ready for Series A funding.",
+    "tech": [
+      "Next.js",
+      "PostgreSQL",
+      "Stripe",
+      "Clerk",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "images": [
+      "/case-studies/saas-1.jpg",
+      "/case-studies/saas-2.jpg",
+      "/case-studies/saas-3.jpg"
+    ],
+    "websiteUrl": "https://example-saas.com"
+  },
+  {
+    "id": "integration-platform",
+    "title": "Custom Integration Platform",
+    "oneLiner": "Unified API connecting 15+ business tools",
+    "category": [
+      "Integrations",
+      "Ops Tooling"
+    ],
+    "problem": "A business was using 15+ different tools that didn't communicate with each other, causing data silos and manual work. They needed a unified integration platform to connect all their tools.",
+    "build": "Developed a custom integration platform with unified API, webhook management, and data transformation layer. Built connectors for all their tools (CRM, email, calendar, accounting, etc.) and created a dashboard for monitoring all integrations.",
+    "outcome": "Eliminated manual data entry between systems. Reduced errors by 90%. Saved 30+ hours per week. All tools now work together seamlessly.",
+    "tech": [
+      "Node.js",
+      "PostgreSQL",
+      "REST APIs",
+      "Webhooks",
+      "TypeScript"
+    ],
+    "images": [
+      "/case-studies/integration-1.jpg",
+      "/case-studies/integration-2.jpg"
+    ],
+    "websiteUrl": "https://example-integrations.com"
+  },
+  {
+    "id": "ops-dashboard",
+    "title": "Internal Operations Dashboard",
+    "oneLiner": "Custom dashboard providing real-time visibility into all operations",
+    "category": [
+      "Ops Tooling"
+    ],
+    "problem": "A growing business had no visibility into their operations. Data was scattered across multiple tools and reports were manually compiled. They needed a single dashboard showing KPIs, metrics, and alerts.",
+    "build": "Created a custom operations dashboard aggregating data from all their systems. Built real-time metrics, automated alerts, and custom reports. Integrated with their CRM, accounting, inventory, and customer support tools.",
+    "outcome": "Management now has real-time visibility into all operations. Reduced time spent on reporting by 80%. Identified and fixed bottlenecks quickly. Made data-driven decisions easier.",
+    "tech": [
+      "Next.js",
+      "PostgreSQL",
+      "Chart.js",
+      "REST APIs",
+      "TypeScript"
+    ],
+    "images": [
+      "/case-studies/dashboard-1.jpg",
+      "/case-studies/dashboard-2.jpg"
+    ]
+  },
+  {
+    "id": "example",
+    "title": "Example Domain",
+    "oneLiner": "Built and delivered Example Domain",
+    "category": [
+      "AI Agents"
+    ],
+    "problem": "Client needed a solution for example domain.",
+    "build": "Built Example Domain with modern web technologies and best practices.",
+    "outcome": "Successfully delivered Example Domain with positive results.",
+    "tech": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "images": [
+      "/portfolio/ingested/example/home.jpg"
+    ],
+    "websiteUrl": "https://example.com"
+  },
+  {
+    "id": "izzyai",
+    "title": "IzzyAI - AI-Powered Speech Therapy",
+    "oneLiner": "Fix your speech with AI-powered therapists. Tailored therapy for stammering, articulation, and more.",
+    "category": [
+      "AI Agents",
+      "SaaS"
+    ],
+    "problem": "Access to speech therapy is expensive and often requires long wait times. Many people need consistent practice but can't afford regular sessions. They needed an accessible, affordable solution that could provide personalized speech therapy guidance anytime.",
+    "build": "Developed an AI-powered speech therapy platform using advanced speech recognition and natural language processing. Built personalized therapy plans, real-time feedback system, progress tracking, and gamified practice sessions. Integrated voice analysis technology to provide instant feedback on pronunciation and fluency.",
+    "outcome": "Made speech therapy accessible and affordable. Users can practice anytime, anywhere. Reduced therapy costs by 80% while maintaining quality. Platform helps thousands improve their speech with consistent, personalized guidance.",
+    "tech": [
+      "Next.js",
+      "TypeScript",
+      "OpenAI API",
+      "Web Speech API",
+      "PostgreSQL",
+      "Tailwind CSS"
+    ],
+    "images": [
+      "/portfolio/ingested/izzyai/home.jpg"
+    ],
+    "websiteUrl": "https://www.izzyai.com"
+  },
+  {
+    "id": "passportv3",
+    "title": "PassportV3",
+    "oneLiner": "Digital identity and verification platform",
+    "category": [
+      "SaaS",
+      "Integrations"
+    ],
+    "problem": "Organizations needed a secure, scalable solution for digital identity verification and document management. Existing solutions were either too expensive or lacked the required security features.",
+    "build": "Built a secure digital identity platform with document verification, biometric authentication, and compliance features. Implemented end-to-end encryption, audit logging, and integration APIs for seamless onboarding.",
+    "outcome": "Enabled secure digital identity verification at scale. Reduced verification time from days to minutes. Improved security and compliance posture. Platform successfully processes thousands of verifications monthly.",
+    "tech": [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "AWS",
+      "TypeScript"
+    ],
+    "images": [
+      "/portfolio/ingested/passportv3/home.jpg"
+    ],
+    "websiteUrl": "https://www.passportv3.io"
+  },
+  {
+    "id": "socialtip",
+    "title": "Social Tip",
+    "oneLiner": "Get paid to post on socials - Turn everyday moments into real cash rewards",
+    "category": [
+      "SaaS",
+      "Marketplaces"
+    ],
+    "problem": "Brands needed a way to connect with authentic creators and reward them for genuine social media posts. Traditional influencer marketing was expensive and lacked authenticity. They needed a platform that could match brands with real people who genuinely love their products.",
+    "build": "Built a full-stack marketplace platform connecting brands with everyday creators. Implemented user authentication, brand onboarding, content submission workflow, payment processing via Stripe, and automated payout system. Created matching algorithm based on user interests and brand requirements. Built mobile-responsive web app with real-time notifications.",
+    "outcome": "Launched platform enabling brands to reach authentic audiences at scale. Users earn real cash rewards for genuine posts. Reduced brand marketing costs while increasing authentic engagement. Platform successfully connects brands with thousands of active creators.",
+    "tech": [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Stripe",
+      "Tailwind CSS",
+      "Node.js"
+    ],
+    "images": [
+      "/portfolio/ingested/socialtip/home.jpg"
+    ],
+    "websiteUrl": "https://www.socialtip.io"
+  },
+  {
+    "id": "takeoffyachts",
+    "title": "Takeoff Yachts",
+    "oneLiner": "Luxury yacht charter and booking platform",
+    "category": [
+      "SaaS",
+      "Marketplaces"
+    ],
+    "problem": "A yacht charter business needed a modern platform to showcase their fleet, manage bookings, and handle customer inquiries. They were losing bookings due to outdated processes and lack of online presence.",
+    "build": "Built a beautiful booking platform with yacht listings, availability calendar, online booking system, payment processing, and customer management. Created responsive design optimized for mobile browsing. Integrated with payment gateways and email systems.",
+    "outcome": "Increased online bookings by 200%. Reduced booking processing time from hours to minutes. Improved customer experience with easy online booking. Better inventory management led to higher utilization rates.",
+    "tech": [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Stripe",
+      "Tailwind CSS"
+    ],
+    "images": [
+      "/portfolio/ingested/takeoffyachts/home.jpg"
+    ],
+    "websiteUrl": "https://www.takeoffyachts.com"
+  },
+  {
+    "id": "wearevenu",
+    "title": "Venu",
+    "oneLiner": "Event management and venue booking platform",
+    "category": [
+      "SaaS",
+      "Marketplaces"
+    ],
+    "problem": "Event organizers and venues needed a unified platform to discover spaces, manage bookings, and coordinate events. The process was fragmented across multiple tools and communication channels.",
+    "build": "Built a comprehensive event management platform connecting venues with event organizers. Implemented venue search and filtering, booking system, payment processing, event management tools, and communication features. Created admin dashboards for both venues and organizers.",
+    "outcome": "Streamlined event booking process. Increased venue bookings by 150%. Reduced booking coordination time by 70%. Better matching between venues and events led to higher satisfaction rates.",
+    "tech": [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Stripe",
+      "Tailwind CSS",
+      "Node.js"
+    ],
+    "images": [
+      "/portfolio/ingested/wearevenu/home.jpg"
+    ],
+    "websiteUrl": "https://www.wearevenu.com"
+  },
+  {
+    "id": "zoomies",
+    "title": "Zoomies Doggy Daycare",
+    "oneLiner": "Premium dog daycare, boarding, and training services in Dubai",
+    "category": [
+      "SaaS"
+    ],
+    "problem": "A dog daycare business needed a modern booking system to manage appointments, customer communications, and service offerings. They were using manual booking processes that were error-prone and time-consuming.",
+    "build": "Built a comprehensive booking and management platform with online reservations, customer profiles, service management, automated reminders, and payment processing. Integrated calendar system, SMS notifications, and customer portal for easy booking and account management.",
+    "outcome": "Streamlined booking process reduced administrative time by 60%. Increased bookings through online availability. Improved customer satisfaction with easy self-service booking. Better organization and scheduling led to 40% increase in capacity utilization.",
+    "tech": [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Stripe",
+      "Twilio",
+      "Tailwind CSS"
+    ],
+    "images": [
+      "/portfolio/ingested/zoomies/home.jpg"
+    ],
+    "websiteUrl": "https://www.zoomies.ae"
+  }
+]

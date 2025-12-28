@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Passportv3",
+    "url": "https://www.passportv3.io",
+    "slug": "passportv3"
+  },
+  {
+    "name": "Socialtip",
+    "url": "https://www.socialtip.io",
+    "slug": "socialtip"
+  },
+  {
+    "name": "Wearevenu",
+    "url": "https://www.wearevenu.com",
+    "slug": "wearevenu"
+  },
+  {
+    "name": "Takeoffyachts",
+    "url": "https://www.takeoffyachts.com",
+    "slug": "takeoffyachts"
+  },
+  {
+    "name": "Zoomies",
+    "url": "https://www.zoomies.ae",
+    "slug": "zoomies"
+  },
+  {
+    "name": "Izzyai",
+    "url": "https://www.izzyai.com",
+    "slug": "izzyai"
+  }
+]
